@@ -6,6 +6,7 @@ import azure.cognitiveservices.speech as speech_sdk
 # Variável global para a configuração do serviço de fala
 speech_config = None
 
+
 def ouvir_do_microfone():
     """
     Escuta o microfone e retorna o que foi dito como uma string de texto.
